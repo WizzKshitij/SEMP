@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "graph.h"
-
 #include <ctype.h>
 #include "limits.h"
+
 void append(node **l, int vertex,int data) {
 	node *newnode, *p;
 	newnode = (node *)malloc(sizeof(node));
